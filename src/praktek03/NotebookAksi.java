@@ -16,5 +16,14 @@ public class NotebookAksi {
         System.out.println(n.getSpek());
         System.out.print("Harganya \t: ");
         System.out.println(n.getHarga());
+        
+        Laptop l = new Laptop();
+        l.setMerk("Asus");
+        l.setSpek("4GB, 1TB");
+        l.setHarga(9000000);
+        l.setLaptop("Gaming");
+        l.cetakInfo(); 
+        System.out.println("Jenis :"+l.getLaptop());
+        l.throttle();
     }
 }
