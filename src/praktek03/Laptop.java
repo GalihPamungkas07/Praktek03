@@ -6,4 +6,14 @@ public class Laptop extends Notebook{
     void throttle(){
             System.out.println("..THANK YOU..");
     }
+
+    public String getLaptop() {
+        return Laptop;
+    }
+
+    public void setLaptop(String Laptop) {
+        this.Laptop = Laptop;
+    }
+    
+    
 }
