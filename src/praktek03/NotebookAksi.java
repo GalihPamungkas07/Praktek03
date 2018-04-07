@@ -9,5 +9,12 @@ public class NotebookAksi {
         n.setHarga(4000000);
         
         n.cetakInfo();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(n.getMerk());
+        System.out.print("Speknya \t: ");
+        System.out.println(n.getSpek());
+        System.out.print("Harganya \t: ");
+        System.out.println(n.getHarga());
     }
 }
